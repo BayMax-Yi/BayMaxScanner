@@ -36,6 +36,7 @@ dependencies {
         setContentView(R.layout.activity_capture);
         
         previewHelper = new PreviewHelper();
+	 previewHelper.setScanType( PreviewHelper.SCANTYPE_QR);
         previewHelper.setActivity(this);
         previewHelper.setSurfaceHolder(surfaceView.getHolder());
         previewHelper.setViewfinderView(viewfinderView);
@@ -45,7 +46,6 @@ dependencies {
         //setScanType   PreviewHelper.SCANTYPE_QR ： Scan QrCode     
         //              PreviewHelper.SCANTYPE_BARCIDE ： Scan BarCode  
         
-        previewHelper.setScanType( PreviewHelper.SCANTYPE_QR);
         previewHelper.onCreate();
     }
     
