@@ -52,7 +52,6 @@ public class PreviewHelper implements SurfaceHolder.Callback {
     private CaptureActivityHandler handler;
     private ViewfinderView viewfinderView;
     private boolean hasSurface;
-    private int orientation = 0;
 
     private Activity activity;
 
@@ -181,7 +180,7 @@ public class PreviewHelper implements SurfaceHolder.Callback {
             // Creating the handler starts the preview, which can also throw a RuntimeException.
             if (handler == null) {
                 handler = new CaptureActivityHandler(this, null, null, null, cameraManager);
-                handler.setOrientation(orientation);
+                if (scanType == SCANTYPE_BARCODE) handler.setOrientation(90);
             }
         } catch (IOException ioe) {
 

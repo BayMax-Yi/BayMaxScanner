@@ -44,12 +44,13 @@ public class CaptureActivity extends Activity {
 
     private void initPreviewHelper() {
         previewHelper = new PreviewHelper();
+        previewHelper.setScanType(getIntent().getIntExtra("type", PreviewHelper.SCANTYPE_QR));
         previewHelper.setActivity(this);
         previewHelper.setSurfaceHolder(surfaceView.getHolder());
 
         previewHelper.setViewfinderView(viewfinderView);
         previewHelper.setOnDecodedResultListener(onDecodeListener);
-        previewHelper.setScanType(getIntent().getIntExtra("type", PreviewHelper.SCANTYPE_QR));
+
     }
 
     private void configViewFiderView(ViewfinderView viewfinderView) {
