@@ -1,12 +1,12 @@
 # CodeScanner
 
-<iframe height=500 width=510 src="https://github.com/BayMax-Yi/BayMaxScanner/blob/master/screenshort/scan_qr.gif" frameborder=0 allowfullscreen></iframe>
+<img height=500 width=510 src="https://github.com/BayMax-Yi/BayMaxScanner/blob/master/screenshort/scan_qr.gif" frameborder=0 allowfullscreen></img>
 
-<iframe height=500 width=510 src="https://github.com/BayMax-Yi/BayMaxScanner/blob/master/screenshort/scan_barcode.GIF" frameborder=0 allowfullscreen></iframe>
+<img height=500 width=510 src="https://github.com/BayMax-Yi/BayMaxScanner/blob/master/screenshort/scan_barcode.GIF" frameborder=0 allowfullscreen></img>
 
-<iframe height=500 width=510 src="https://github.com/BayMax-Yi/BayMaxScanner/blob/master/screenshort/create_qr.gif" frameborder=0 allowfullscreen></iframe>
+<img height=500 width=510 src="https://github.com/BayMax-Yi/BayMaxScanner/blob/master/screenshort/create_qr.gif" frameborder=0 allowfullscreen></img>
 
-<iframe height=500 width=510 src="https://github.com/BayMax-Yi/BayMaxScanner/blob/master/screenshort/create_barcode.gif" frameborder=0 allowfullscreen></iframe>
+<img height=500 width=510 src="https://github.com/BayMax-Yi/BayMaxScanner/blob/master/screenshort/create_barcode.gif" frameborder=0 allowfullscreen></img>
 
 ## How to use ?
 
