@@ -1,6 +1,12 @@
 # CodeScanner
 
+<iframe height=500 width=510 src="https://github.com/BayMax-Yi/BayMaxScanner/blob/master/screenshort/scan_qr.gif" frameborder=0 allowfullscreen></iframe>
 
+<iframe height=500 width=510 src="https://github.com/BayMax-Yi/BayMaxScanner/blob/master/screenshort/scan_barcode.GIF" frameborder=0 allowfullscreen></iframe>
+
+<iframe height=500 width=510 src="https://github.com/BayMax-Yi/BayMaxScanner/blob/master/screenshort/create_qr.gif" frameborder=0 allowfullscreen></iframe>
+
+<iframe height=500 width=510 src="https://github.com/BayMax-Yi/BayMaxScanner/blob/master/screenshort/create_barcode.gif" frameborder=0 allowfullscreen></iframe>
 
 ## How to use ?
 
@@ -17,7 +23,7 @@ allprojects {
 ### Step 2. Add the dependency to your model build.gradle
 
 dependencies {
-	        implementation 'com.github.BayMax-Yi:CodeScanner:-SNAPSHOT'
+	        implementation 'com.github.BayMax-Yi:BayMaxScanner:1.0.1'
 }
 
 
